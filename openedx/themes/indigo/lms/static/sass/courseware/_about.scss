@@ -269,6 +269,16 @@
             }
         }
     }
+    .outline-sidebar-wrapper {
+    flex-shrink: 0;
+    margin-right: 1rem; /* equivalent to Tailwind's mr-4 */
+    max-width: 30%;
+    height: auto;
+    }
+
+    .fixed-bottom, .fixed-top {
+    position: relative;
+    }
     .course-sidebar {
         background: $primary-light;
         padding: 16px;
