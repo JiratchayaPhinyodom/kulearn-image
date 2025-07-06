@@ -1,0 +1,10 @@
+.outline-sidebar-wrapper.bg-white.m-0.fixed-top.w-100.vh-100 {
+    max-width: 30% !important;
+    position: relative !important;
+}
+
+@media (max-width: 1200px) {
+  section.outline-sidebar.w-100 {
+      max-width: 30% !important;
+  }
+}

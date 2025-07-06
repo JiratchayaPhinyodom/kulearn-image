@@ -1689,35 +1689,6 @@ body.indigo-dark-theme {
   }
 }
 
-.outline-sidebar-wrapper {
-  flex-shrink: 0;
-  margin-right: 1rem; /* equivalent to Tailwind's mr-4 */
-  max-width: 30%;
-  height: auto;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .outline-sidebar-wrapper,
-  .course-sidebar {
-    position: relative;
-    width: 300px !important;
-    max-width: 30%;
-    float: left;
-    margin-right: 20px;
-    flex-shrink: 0;
-    height: auto;
-  }
-
-  .course-main-content {
-    width: calc(100% - 320px); /* Adjust for sidebar width + margin */
-    float: right;
-  }
-}
-
-.fixed-bottom, .fixed-top {
-  position: relative;
-}
-
 @import '../../../extra/footer';
 @import '../../../extra/header';
 @import '../../../dashboard/dashboard';
@@ -1731,3 +1702,4 @@ body.indigo-dark-theme {
 @import '../../../views/teams';
 @import '../../../views/wiki';
 @import '../../../courseware/responsive-nav';
+@import '../../../courseware/custom-sidebar';
